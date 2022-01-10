@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8426B3C926F9625A0089151C /* HarmonicSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426B3C826F9625A0089151C /* HarmonicSignal.swift */; };
+		8426B3CB26F96CED0089151C /* PolyharmonicSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426B3CA26F96CED0089151C /* PolyharmonicSignal.swift */; };
+		84341C3826FB37D2006B67C5 /* lineChartPreparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84341C3726FB37D2006B67C5 /* lineChartPreparation.swift */; };
+		8473570326F984FB00B0AD47 /* HarmonicSignalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473570226F984FB00B0AD47 /* HarmonicSignalController.swift */; };
+		8473570526F9850F00B0AD47 /* PolyharmonicSignalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8473570426F9850F00B0AD47 /* PolyharmonicSignalController.swift */; };
+		84F770FE26F88BF500C09C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F770FD26F88BF500C09C5D /* AppDelegate.swift */; };
+		84F7710026F88BF500C09C5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F770FF26F88BF500C09C5D /* ViewController.swift */; };
+		84F7710326F88BF500C09C5D /* TSOS_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84F7710126F88BF500C09C5D /* TSOS_1.xcdatamodeld */; };
+		84F7710526F88BF900C09C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F7710426F88BF900C09C5D /* Assets.xcassets */; };
+		84F7710826F88BF900C09C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F7710626F88BF900C09C5D /* Main.storyboard */; };
+		982D29B8F2685C05E3D531E0 /* Pods_TSOS_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4DA6E70E46178524582BB64 /* Pods_TSOS_1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		727A8F96039F3B334B8FB0FD /* Pods-TSOS_1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSOS_1.release.xcconfig"; path = "Target Support Files/Pods-TSOS_1/Pods-TSOS_1.release.xcconfig"; sourceTree = "<group>"; };
+		8426B3C826F9625A0089151C /* HarmonicSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonicSignal.swift; sourceTree = "<group>"; };
+		8426B3CA26F96CED0089151C /* PolyharmonicSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyharmonicSignal.swift; sourceTree = "<group>"; };
+		84341C3726FB37D2006B67C5 /* lineChartPreparation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lineChartPreparation.swift; sourceTree = "<group>"; };
+		8473570226F984FB00B0AD47 /* HarmonicSignalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarmonicSignalController.swift; sourceTree = "<group>"; };
+		8473570426F9850F00B0AD47 /* PolyharmonicSignalController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyharmonicSignalController.swift; sourceTree = "<group>"; };
+		84F770FA26F88BF500C09C5D /* TSOS_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSOS_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F770FD26F88BF500C09C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F770FF26F88BF500C09C5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F7710226F88BF500C09C5D /* TSOS_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TSOS_1.xcdatamodel; sourceTree = "<group>"; };
+		84F7710426F88BF900C09C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F7710726F88BF900C09C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F7710926F88BF900C09C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F7710A26F88BF900C09C5D /* TSOS_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TSOS_1.entitlements; sourceTree = "<group>"; };
+		87DF4FDACD02AAF0B4DE5826 /* Pods-TSOS_1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSOS_1.debug.xcconfig"; path = "Target Support Files/Pods-TSOS_1/Pods-TSOS_1.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DA6E70E46178524582BB64 /* Pods_TSOS_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSOS_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F770F726F88BF500C09C5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982D29B8F2685C05E3D531E0 /* Pods_TSOS_1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A0A55E187E2929626A6246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4DA6E70E46178524582BB64 /* Pods_TSOS_1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F770F126F88BF500C09C5D = {
+			isa = PBXGroup;
+			children = (
+				84F770FC26F88BF500C09C5D /* TSOS_1 */,
+				84F770FB26F88BF500C09C5D /* Products */,
+				E2E9B5CFF671F4FE17B2B69A /* Pods */,
+				10A0A55E187E2929626A6246 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F770FB26F88BF500C09C5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F770FA26F88BF500C09C5D /* TSOS_1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F770FC26F88BF500C09C5D /* TSOS_1 */ = {
+			isa = PBXGroup;
+			children = (
+				84F770FD26F88BF500C09C5D /* AppDelegate.swift */,
+				84F770FF26F88BF500C09C5D /* ViewController.swift */,
+				84F7710426F88BF900C09C5D /* Assets.xcassets */,
+				84F7710626F88BF900C09C5D /* Main.storyboard */,
+				84F7710926F88BF900C09C5D /* Info.plist */,
+				84F7710A26F88BF900C09C5D /* TSOS_1.entitlements */,
+				84F7710126F88BF500C09C5D /* TSOS_1.xcdatamodeld */,
+				8426B3C826F9625A0089151C /* HarmonicSignal.swift */,
+				8426B3CA26F96CED0089151C /* PolyharmonicSignal.swift */,
+				8473570226F984FB00B0AD47 /* HarmonicSignalController.swift */,
+				8473570426F9850F00B0AD47 /* PolyharmonicSignalController.swift */,
+				84341C3726FB37D2006B67C5 /* lineChartPreparation.swift */,
+			);
+			path = TSOS_1;
+			sourceTree = "<group>";
+		};
+		E2E9B5CFF671F4FE17B2B69A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87DF4FDACD02AAF0B4DE5826 /* Pods-TSOS_1.debug.xcconfig */,
+				727A8F96039F3B334B8FB0FD /* Pods-TSOS_1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F770F926F88BF500C09C5D /* TSOS_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F7710D26F88BF900C09C5D /* Build configuration list for PBXNativeTarget "TSOS_1" */;
+			buildPhases = (
+				31921BC3828226BD3104D6CB /* [CP] Check Pods Manifest.lock */,
+				84F770F626F88BF500C09C5D /* Sources */,
+				84F770F726F88BF500C09C5D /* Frameworks */,
+				84F770F826F88BF500C09C5D /* Resources */,
+				97A041733AA765A9B95FE8D1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSOS_1;
+			productName = TSOS_1;
+			productReference = 84F770FA26F88BF500C09C5D /* TSOS_1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F770F226F88BF500C09C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					84F770F926F88BF500C09C5D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 84F770F526F88BF500C09C5D /* Build configuration list for PBXProject "TSOS_1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F770F126F88BF500C09C5D;
+			productRefGroup = 84F770FB26F88BF500C09C5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F770F926F88BF500C09C5D /* TSOS_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F770F826F88BF500C09C5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F7710526F88BF900C09C5D /* Assets.xcassets in Resources */,
+				84F7710826F88BF900C09C5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31921BC3828226BD3104D6CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TSOS_1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A041733AA765A9B95FE8D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TSOS_1/Pods-TSOS_1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TSOS_1/Pods-TSOS_1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TSOS_1/Pods-TSOS_1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F770F626F88BF500C09C5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8473570526F9850F00B0AD47 /* PolyharmonicSignalController.swift in Sources */,
+				84F7710026F88BF500C09C5D /* ViewController.swift in Sources */,
+				84F770FE26F88BF500C09C5D /* AppDelegate.swift in Sources */,
+				8473570326F984FB00B0AD47 /* HarmonicSignalController.swift in Sources */,
+				84341C3826FB37D2006B67C5 /* lineChartPreparation.swift in Sources */,
+				8426B3C926F9625A0089151C /* HarmonicSignal.swift in Sources */,
+				84F7710326F88BF500C09C5D /* TSOS_1.xcdatamodeld in Sources */,
+				8426B3CB26F96CED0089151C /* PolyharmonicSignal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84F7710626F88BF900C09C5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F7710726F88BF900C09C5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F7710B26F88BF900C09C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84F7710C26F88BF900C09C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		84F7710E26F88BF900C09C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DF4FDACD02AAF0B4DE5826 /* Pods-TSOS_1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TSOS_1/TSOS_1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67ND5L4SC7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TSOS_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yushkevich.TSOS-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84F7710F26F88BF900C09C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 727A8F96039F3B334B8FB0FD /* Pods-TSOS_1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TSOS_1/TSOS_1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67ND5L4SC7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = TSOS_1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Yushkevich.TSOS-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F770F526F88BF500C09C5D /* Build configuration list for PBXProject "TSOS_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F7710B26F88BF900C09C5D /* Debug */,
+				84F7710C26F88BF900C09C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F7710D26F88BF900C09C5D /* Build configuration list for PBXNativeTarget "TSOS_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F7710E26F88BF900C09C5D /* Debug */,
+				84F7710F26F88BF900C09C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84F7710126F88BF500C09C5D /* TSOS_1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84F7710226F88BF500C09C5D /* TSOS_1.xcdatamodel */,
+			);
+			currentVersion = 84F7710226F88BF500C09C5D /* TSOS_1.xcdatamodel */;
+			path = TSOS_1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84F770F226F88BF500C09C5D /* Project object */;
+}
